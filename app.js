@@ -61,8 +61,6 @@ document.querySelector('#book-form').addEventListener('submit', e => {
 
   // Instatiate book
   const book = new Book(title, author, isbn);
-
-  console.log(book);
 });
 
 // Event: Remove a Book
